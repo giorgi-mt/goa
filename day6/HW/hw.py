@@ -7,3 +7,4 @@ print("my mam is "+mam)
 sister=input("enter sister name: ")
 
 cousin=input("enter cousin name: ")
+

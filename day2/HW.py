@@ -54,5 +54,3 @@ num35="you"
 num36="today?"
 
 
-numm37="infut"
-print(infut+3)

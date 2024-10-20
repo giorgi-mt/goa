@@ -27,3 +27,4 @@ num6=4
 num7="hello word"
 num8=8.5
 print(num6+num7+num8)
+
