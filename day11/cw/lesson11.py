@@ -5,4 +5,3 @@ num4=3>2
 print(num1 and num2)
 print(num3 and num4)
 
-print("messi is the goat" and "ronaldo is the bed")
