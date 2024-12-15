@@ -27,19 +27,20 @@ num11=11<676
 print(num11)
 num12=32>9
 print(num9)
-num13=
-print()
-num14=
-print()
-num15=
-print()
-num16=
-print()
-num17=
-print()
-num18=
-print()
-num19=
+num13=67<90
+print(num13)
+num14=87<99
+print(num14)
+num15=67<87
+print(num15)
+num16=78>9
+print(num16)
+num17=98<123
+print(num17)
+num18=89>0
+print(num18)
+num19=78>9
+print(num19)
 
 
 
