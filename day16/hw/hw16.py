@@ -12,5 +12,3 @@ while password != password_confirm:
   password_confirm=input("პაროლი არ ემთხვევა სცადეთ ახლიდან: ")
 
 print("პაროლი ემთხვევა!")
-
-
