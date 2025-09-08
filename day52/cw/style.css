@@ -1,0 +1,13 @@
+table,tr,th{
+    border: solid;
+    border-color: yellow;
+}
+th{
+    background-color: greenyellow;
+}
+td{
+    background-color: red;
+}
+table{
+    border-color: yellow;
+}

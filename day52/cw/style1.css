@@ -1,0 +1,21 @@
+table,tr,th{
+    border:solid
+}
+#goa{
+    background-color: rgb(47, 182, 255);
+}
+.goa1{
+    background-color: greenyellow;
+}
+.goa2{
+    background-color: rgb(31, 84, 2);
+}
+.goa3{
+    background-color: chocolate;
+}
+.goa4{
+    background-color: brown;
+}
+.goa5{
+    background-color: red;
+}
