@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფერის შეცვლა და გადაადგილება</title>
+    <style>
+        .color-moving-div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: moveAndColorChange 5s infinite;
+        }
+
+        @keyframes moveAndColorChange {
+            0% {
+                background-color: red;
+                transform: translateX(0);
+            }
+            25% {
+                background-color: blue;
+                transform: translateX(50px);
+            }
+            50% {
+                background-color: green;
+                transform: translateX(100px);
+            }
+            75% {
+                background-color: yellow;
+                transform: translateX(150px);
+            }
+            100% {
+                background-color: purple;
+                transform: translateX(200px);
+            }
+        }
+        /* color-moving-div დივს აქვს 100x100px ზომა და დასაწყისში წითელი ფერი.
+
+@keyframes-ით აღწერილია ანიმაცია სახელწოდებით moveAndColorChange. ის ხდება 5 წამში, მუდმივად (infinite).
+==----
+0%, 25%, 50%, 75%, 100%-ში დივის ფერი იცვლება და თან მას შეუძლია გადაადგილება მარჯვნივ 200px-მდე.
+0%: წითელი ფერი და მისი ადგილმდებარეობა არ შეცვლილა.
+
+25%: ბლუ ფერი და გადაადგილება 50px-მდე.
+
+50%: მწვანე ფერი და გადაადგილება 100px-მდე.
+
+75%: ყვითელი ფერი და გადაადგილება 150px-მდე.
+
+100%: პურიპლის ფერი და გადაადგილება 200px-მდე. */
+    </style>
+</head>
+<body>
+
+    <div class="color-moving-div"></div>
+
+</body>
+</html>
