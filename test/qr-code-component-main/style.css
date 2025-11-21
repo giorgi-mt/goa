@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:  hsl(212, 45%, 89%);
+}
+div {
+    height:fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:  white;
+    gap: 15px;
+}
+img{
+    
+    border-radius: 20px;
+    height: 200px;
+    /* width: 200px; */
+    width: 100%;
+}
+#goa1{
+    color:  hsl(218, 44%, 22%);
+    size: 20px;
+}
+#goa{
+    color:  hsl(216, 15%, 48%);;
+}
